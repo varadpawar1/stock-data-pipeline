@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (if using)
+.vscode/
+
+# Data files
+data/*.csv
+data/*.parquet
+data/*.json
+
+# AWS credentials or .env files
+*.env
+*.pem
+*.key
+*.json
+
+# Logs
+*.log
+
+# PySpark temp files
+metastore_db/
+spark-warehouse/ 
