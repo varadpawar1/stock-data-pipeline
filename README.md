@@ -42,7 +42,7 @@ This project demonstrates a real-world cloud ETL pipeline using AWS S3, Snowflak
 |----------------|--------------------------------------------------|
 | `/queries`     | SQL scripts used to transform and explore data   |
 | `/screenshots` | Snaps from Snowsight dashboard                   |
-| `/data`        | (Optional) Local copy or link to S3 dataset      |
+| `/data`        | Historical Stock data      |
 
 ---
 
