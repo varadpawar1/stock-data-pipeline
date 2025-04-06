@@ -32,7 +32,7 @@ This project demonstrates a real-world cloud ETL pipeline using AWS S3, Snowflak
 
 ### 📊 Dashboard Preview
 
-![Dashboard Sample](screenshots/Average Volatility.png)
+![Dashboard Sample](screenshots/Average_Volatility.png)
 
 ---
 
