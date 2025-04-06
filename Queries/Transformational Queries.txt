@@ -1,0 +1,25 @@
+select * from cleaned_stock_data
+
+SELECT name, AVG(close) AS avg_close
+FROM ALL_STOCKS_5YR
+GROUP BY name
+ORDER BY avg_close DESC
+LIMIT 10;
+
+SELECT name, ROUND(AVG(close), 2) AS avg_close
+FROM ALL_STOCKS_5YR
+GROUP BY name
+ORDER BY avg_close DESC
+LIMIT 10;
+
+SELECT name, ROUND(AVG(high - low), 2) AS avg_volatility
+FROM ALL_STOCKS_5YR
+GROUP BY name
+ORDER BY avg_volatility DESC
+LIMIT 10;
+
+SELECT name, SUM(volume) AS total_volume
+FROM ALL_STOCKS_5YR
+GROUP BY name
+ORDER BY total_volume DESC
+LIMIT 10;
